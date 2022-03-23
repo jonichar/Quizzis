@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    padding: 30px 20px;
+}
+
+#header {
+    display: flex;
+    justify-content: end;
+}
+
+#user {
+    cursor: pointer;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+#title {
+    color: #f35b7f;
+    font-size: 25px;
+    font-weight: 700;
+
+    margin: 15px 0 5px 0;
+}
+
+#introText {
+    font-size: 15px;
+    color: #aaaaaa;
+    font-weight: 500;
+}
+
+
+#testsList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+
+}
+
+.testDiv {
+    background-color: #f35b7f;
+    width: 100%;
+    margin: 15px 0 40px 0;
+    padding: 15px;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    transition: all;
+}
+
+.testDiv:hover {
+    transform: scale(1.035);
+    transition-duration: 0.5s;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+
+    margin-top: 12px;
+    top: -55px;
+    right: 15px;
+    position: absolute;
+}
+
+.testStatusDiv {
+    width: 30px;
+    height: 30px;
+
+    margin: 0 0 15px 0;
+}
+
+.testname {
+    color: white;
+    font-weight: 500;
+}

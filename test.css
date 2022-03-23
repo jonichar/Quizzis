@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    background-color: #4185f1;
+    padding: 30px 20px;
+    position: relative;
+}
+
+#header {
+    position: fixed;  
+    top: 0;
+    left: 0;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+    background-color: #4185f1;
+    padding: 15px;
+    box-shadow: 0 0 15px rgba(0, 0  , 0, .15);
+}
+
+#breadcrumb {
+    display: flex;
+    align-items: center;
+}
+
+#titleTest {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.returnIcon {
+    width: 15px;
+    height: 15px;
+    color: white;
+}
+
+#return {
+    background-color: transparent;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.numberDiv {
+    display: flex;
+    justify-content: center;
+
+    margin:50px 0 20px 0;
+}
+
+.currentNumberQuestion {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    color: #4185f1;
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.textQuestion {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 15px 0 50px 0;
+    text-align: center;
+}
+
+.optionList {
+    margin-bottom: 80px;
+}
+
+.option {
+    color: #4185f1;
+    font-weight: 500;
+    margin: 10px 0;
+    border-radius: 8px ;
+    background-color: white;
+    padding: 8px;
+
+    text-align: center;
+}
+
+.correctOption {
+    background-color: #22c55e;
+    color: white;
+}
+
+.incorrectOption {
+    background-color: #ed3e39;
+    color: white;
+}
+
+.hideContainer {
+    display: none;
+}
+
+.visibleContainer {
+    display: block;
+}
+
+.blackZone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0  , 0, 0.8);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resultPage {
+    width: 280px;
+    height: 400px;
+    background-color: white;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+
+    padding: 30px;
+
+    color: black;
+    font-weight: 700;
+
+    position: relative;
+
+}
+
+#currentTestImage {
+    position: absolute;
+    top: 0;
+}
+
+#currentTest {
+    font-size: 30px;
+}
+
+#currentResult {
+    font-size: 20px;
+    margin: 15px 0;
+
+}
+
+#homeButton {
+    background-color: #22c55e;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    margin: 15px 0;
+}

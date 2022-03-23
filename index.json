@@ -1,0 +1,168 @@
+{
+    "tests": [
+        {
+            "id": 777,
+            "isDone": false,
+            "slug": "arte",
+            "name": "Arte",
+            "img": "art.png",
+            "winCondition":"1",
+            "questions":[
+                {
+                    "id": 123,
+                    "img": "boat.png",
+                    "text": "¿Cuál era la nacionalidad de Heri Cartier-Bresson, considerado por muchos el padre del fotoreportaje?",
+                    "options": [
+                        {
+                            "text": "Británica",
+                            "isCorrect": false
+                        },
+
+                        {
+                            "text": "Alemana",
+                            "isCorrect": true
+                        },
+
+                        {
+                            "text":"Francesa",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                
+                {
+                    "id": 456,
+                    "img": "boat.png",
+                    "text": "¿Qué profesión tenía Hércules Poiriot en las novelas de Agatha Christie?",
+                    "options": [
+                        {
+                            "text": "Detective",
+                            "isCorrect": true
+                        },
+
+                        {
+                            "text": "Policía",
+                            "isCorrect": false
+                        },
+
+                        {
+                            "text":"Médico",
+                            "isCorrect": false
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "id": 888,
+            "isDone": false,
+            "slug": "cultura-general",
+            "name": "Cultura General",
+            "img": "general-culture-1.png",
+            "winCondition":"2",
+            "questions":[
+                {
+                    "id": 123,
+                    "img": "boat.png",
+                    "text": "¿Quién es el autor de la frase: Pienso, luego existo?",
+                    "options": [
+                        {
+                            "text": "Platón",
+                            "isCorrect": false
+                        },
+
+                        {
+                            "text": "Descartes",
+                            "isCorrect": true
+                        },
+
+                        {
+                            "text":"Sócrates",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                
+                {
+                    "id": 456,
+                    "img": "boat.png",
+                    "text": "¿Cuál es el país más grande y el más pequeño del mundo?",
+                    "options": [
+                        {
+                            "text": "Rusia y Vaticano",
+                            "isCorrect": true
+                        },
+
+                        {
+                            "text": "Canadá y Mónaco",
+                            "isCorrect": false
+                        },
+
+                        {
+                            "text":"Estados Unidos y Malta",
+                            "isCorrect": false
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            
+            "id": 999,
+            "isDone": false,
+            "slug": "dinosaurios",
+            "name": "Dinosaurios",
+            "img": "dinosaur.png",
+            "winCondition":"2",
+            "questions":[
+                {
+                    "id": 123,
+                    "img": "boat.png",
+                    "text": "De entre todos los dinosaurios, ¿cuál fue el mayor depredador?",
+                    "options": [
+                        {
+                            "text": "El velociraptor",
+                            "isCorrect": false
+                        },
+
+                        {
+                            "text": "El Tiranosaurio Rex",
+                            "isCorrect": true
+                        },
+
+                        {
+                            "text":"El Protosuchus",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                
+                {
+                    "id": 456,
+                    "img": "boat.png",
+                    "text": "¿En qué período geológico termina el dominio de los dinosaurios sobre la Tierra?",
+                    "options": [
+                        {
+                            "text": "En mesozoico",
+                            "isCorrect": true
+                        },
+
+                        {
+                            "text": "En paleozoico",
+                            "isCorrect": false
+                        },
+
+                        {
+                            "text":"En el fanerozoico",
+                            "isCorrect": false
+                        }
+                    ]
+                }
+            ]
+            
+        }
+    ]
+
+}
