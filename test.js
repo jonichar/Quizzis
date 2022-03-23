@@ -152,7 +152,8 @@ function checkFinish(currentTotalQuestions) {
 function finishResults(status) {
     resultScene.classList.add("blackZone")
     resultScene.classList.remove("hideContainer")
-
+    body.classList.add("scrollBlock")
+    
     let imageDiv = document.createElement('div')
     let image = document.createElement('img')
     image.src = filteredQuiz.img

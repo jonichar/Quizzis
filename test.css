@@ -118,10 +118,14 @@ body {
     
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+.scrollBlock {
+    overflow-y: hidden;
 }
 
 #resultPage {
+    margin-top: 40%;
     width: 280px;
     height: 400px;
     background-color: white;
@@ -137,7 +141,7 @@ body {
     color: black;
     font-weight: 700;
 
-    position: relative;
+    position: fixed;
 
 }
 
