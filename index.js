@@ -69,7 +69,7 @@ function goQuiz(currentTestId, id) {
 }
 
 function result() {
-    axios.get('http://127.0.0.1:5500/index.json')
+    axios.get('index.json')
 
     .then(function (response) {
         quizzis = response.data
