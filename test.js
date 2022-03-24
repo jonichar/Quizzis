@@ -21,6 +21,7 @@ let totalAnswereds = 0
 let currentTest = document.querySelector("#currentTest")
 let correct = document.querySelector("#currentResult")
 let homeButton = document.querySelector("#homeButton")
+let statusTest = document.querySelector("#statusTest")
 
 homeButton.addEventListener('click', () => {
     window.location.href = 'index.html'
@@ -160,6 +161,14 @@ function finishResults(status) {
 
     currentTestImage.appendChild(image)
 
+    if (status == "win") {
+        statusTest.textContent = "Excelent, you win"
+        statusTest.classList.add("win")
+    }else{
+        statusTest.textContent = "No problem, Try Again"
+        statusTest.classList.add("lose")
+    }
+    
     currentTest.textContent = filteredQuiz.name
     correct.textContent = correctCounter + "/" + totalAnswereds
 }

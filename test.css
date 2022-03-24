@@ -137,6 +137,7 @@ body {
     width: 90%;
     max-width: 500px;
     padding: 30px;
+    padding-top: 60px;
 
     color: black;
     font-weight: 700;
@@ -147,11 +148,26 @@ body {
 
 #currentTestImage {
     position: absolute;
-    top: -50px;
+    top: -60px;
+}
+
+#statusTest {
+    font-size: 23px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.win {
+    color: #22c55e;
+}
+
+.lose {
+    color: #ed3e39;
 }
 
 #currentTest {
-    font-size: 30px;
+    font-size: 28px;
+    text-align: center;
 }
 
 #currentResult {
@@ -161,9 +177,10 @@ body {
 }
 
 #homeButton {
-    background-color: #22c55e;
+    background-color: #4185f1;
     border-radius: 10px;
     width: 120px;
     height: 40px;
     margin: 15px 0;
+    font-weight: 600;
 }
