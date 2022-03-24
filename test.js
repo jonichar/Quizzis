@@ -151,9 +151,12 @@ function checkFinish(currentTotalQuestions) {
 
 //Finish Results
 function finishResults(status) {
-    resultScene.classList.add("blackZone")
-    resultScene.classList.remove("hideContainer")
-    body.classList.add("scrollBlock")
+    setTimeout(() => {
+        resultScene.classList.add("blackZone")
+        resultScene.classList.remove("hideContainer")
+        body.classList.add("scrollBlock")
+    }, 700);
+    
     
     let imageDiv = document.createElement('div')
     let image = document.createElement('img')
